@@ -1,0 +1,22 @@
+{
+  "name": "jest-nock-connection-issue",
+  "version": "1.0.0",
+  "description": "test case for bug",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+      "test:no-restore": "jest --norestore=true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "jest": "^26.1.0",
+    "nock": "^13.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-jest": "^26.1.0"
+  }
+}
